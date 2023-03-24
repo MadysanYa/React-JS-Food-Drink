@@ -1,8 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+// STYLE
+import './css/bootstrap.min.css';
+import './css/owl.carousel.min.css';
+import './css/slick.css';
+import './css/magnific-popup.css';
+import './css/font.awesome.css';
+import './css/ionicons.min.css';
+import './css/linearicons.css';
+import './css/animate.css';
+import './css/jquery-ui.min.css';
+import './css/slinky.menu.css';
+import './css/plugins.css';
+import './css/style.css';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -10,8 +23,3 @@ root.render(
     <App />
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
