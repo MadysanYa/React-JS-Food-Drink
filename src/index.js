@@ -3,19 +3,13 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 
 // STYLE
-import './css/bootstrap.min.css';
-import './css/owl.carousel.min.css';
-import './css/slick.css';
-import './css/magnific-popup.css';
-import './css/font.awesome.css';
-import './css/ionicons.min.css';
-import './css/linearicons.css';
-import './css/animate.css';
-import './css/jquery-ui.min.css';
-import './css/slinky.menu.css';
-import './css/plugins.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/style.css';
 
+// SCRIPT
+import 'jquery/dist/jquery.min.js';
+import 'popper.js/dist/popper.min.js';
+import 'bootstrap/dist/js/bootstrap.min.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
