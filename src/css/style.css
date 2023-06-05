@@ -828,7 +828,7 @@ textarea:-ms-input-placeholder {
     line-height: 39px;
     font-size: 14px;
     display: inline-block;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -908,6 +908,7 @@ textarea:-ms-input-placeholder {
     text-transform: capitalize;
     display: block;
     font-size: 13px;
+    font-weight: 600;
     white-space: nowrap;
     line-height: 28px;
     color: #222222;
@@ -1267,7 +1268,7 @@ textarea:-ms-input-placeholder {
     height: 45px;
     color: #222222;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
     padding: 0 75px 0 20px;
     opacity: 0.7;
 }
@@ -1393,6 +1394,7 @@ textarea:-ms-input-placeholder {
 
 .header_account_list.register ul li a {
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 .header_account_list.register ul li a:hover {
@@ -1712,7 +1714,7 @@ textarea:-ms-input-placeholder {
     font-size: 15px;
     line-height: 50px;
     text-transform: capitalize;
-    font-weight: 500;
+    font-weight: 600;
     position: relative;
 }
 
@@ -1847,19 +1849,19 @@ textarea:-ms-input-placeholder {
 
 .categories_title h2 {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 26px;
     cursor: pointer;
     margin-bottom: 0;
     display: block;
     line-height: 51px;
     text-transform: capitalize;
-    padding-left: 35px;
+    /* padding-left: 35px; */
     position: relative;
     color: #fff;
 }
 
-.categories_title h2::before {
+/* .categories_title h2::before {
     content: "\f394";
     font-family: "Ionicons";
     color: #fff;
@@ -1870,9 +1872,9 @@ textarea:-ms-input-placeholder {
     left: 0;
     top: 50%;
     transform: translatey(-50%);
-}
+} */
 
-.categories_title h2::after {
+/* .categories_title h2::after {
     content: "\f3d0";
     font-family: "Ionicons";
     color: #fff;
@@ -1883,7 +1885,7 @@ textarea:-ms-input-placeholder {
     right: 17px;
     top: 50%;
     transform: translatey(-50%);
-}
+} */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .categories_title h2 {
@@ -2365,6 +2367,10 @@ textarea:-ms-input-placeholder {
 .call-support p a {
     display: block;
     font-size: 15px;
+}
+
+.call-support p span{
+    font-weight: 600;
 }
 
 .call-support p a:hover {
